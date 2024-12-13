@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #services h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    background-color: #222;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-item:hover {
+    background-color: #444;
+  }
+  
+  .service-item h2 {
+    color: red;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
